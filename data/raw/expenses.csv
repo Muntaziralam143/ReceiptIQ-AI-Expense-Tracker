@@ -1,0 +1,9 @@
+merchant,description,amount,category,date
+Uber,Ride to airport,550,Transport,2025-01-10
+Starbucks,Coffee purchase,300,Food,2025-01-11
+Amazon,Electronics order,4500,Shopping,2025-01-15
+Dominos,Pizza order,700,Food,2025-01-18
+Uber,Office commute,250,Transport,2025-01-20
+Netflix,Subscription,649,Entertainment,2025-01-22
+Amazon,Book purchase,800,Shopping,2025-01-25
+Zomato,Dinner order,1200,Food,2025-01-28
