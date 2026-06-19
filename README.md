@@ -1,6 +1,8 @@
 ## System Architecture
 
-```text
+<div align="center">
+
+<pre>
                 Receipt Image
                        │
                        ▼
@@ -24,13 +26,17 @@ Classifier         Model         Detection
                │
                ▼
         Financial Insights
-```
+</pre>
+
+</div>
 
 ---
 
 ## Data Processing Pipeline
 
-```text
+<div align="center">
+
+<pre>
 Receipt Image
     ↓
 EasyOCR
@@ -40,7 +46,9 @@ Text Cleanup
 Entity Extraction
     ↓
 JSON Output
-```
+</pre>
+
+</div>
 
 Example Output:
 
@@ -107,21 +115,35 @@ Example Output:
 
 ## Screenshots
 
-### Dashboard
+<table align="center">
+<tr>
+<td align="center">
+<img src="assets/dashboard.png" width="450"/>
+<br>
+<b>Dashboard</b>
+</td>
 
-![Dashboard](assets/dashboard.png)
+<td align="center">
+<img src="assets/receipt_upload.png" width="450"/>
+<br>
+<b>Receipt Upload</b>
+</td>
+</tr>
 
-### Receipt Upload
+<tr>
+<td align="center">
+<img src="assets/ocr_result.png" width="450"/>
+<br>
+<b>OCR Result</b>
+</td>
 
-![Receipt Upload](assets/receipt_upload.png)
-
-### OCR Result
-
-![OCR Result](assets/ocr_result.png)
-
-### Expense Analysis
-
-![Expense Analysis](assets/expense_analysis.png)
+<td align="center">
+<img src="assets/expense_analysis.png" width="450"/>
+<br>
+<b>Expense Analysis</b>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -160,6 +182,3 @@ Example Output:
 B.Tech CSE | AI & Data Science Enthusiast
 
 GitHub: https://github.com/Muntaziralam143
-
-```
-```
